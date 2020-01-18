@@ -1,0 +1,3 @@
+# - src: geerlingguy.haproxy
+- src: geerlingguy.docker
+- src: thomasjpfan.docker-swarm

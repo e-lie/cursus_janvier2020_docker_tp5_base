@@ -1,4 +1,4 @@
-- name: "Provision Docker Swarm Cluster"
+- name: "Setup Docker Swarm"
   hosts: swarm_nodes
 
   roles:

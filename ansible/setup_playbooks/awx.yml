@@ -1,0 +1,9 @@
+- hosts: awxservers
+  become: true
+
+  vars:
+    docker_install_compose: true
+
+  roles:
+    - geerlingguy.docker
+    - simple_awx
